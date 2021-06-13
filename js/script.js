@@ -1,7 +1,6 @@
  
 let button = document.querySelector('.btn');
      let input = document.querySelector('.inp');
-        let ul = document.querySelector('.ul');
            let li = document.querySelector('.li');
 
 
