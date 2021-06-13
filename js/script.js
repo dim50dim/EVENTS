@@ -1,10 +1,12 @@
  
 let button = document.querySelector('.btn');
      let input = document.querySelector('.inp');
+        let ul = document.querySelector('.ul');
+           let li = document.querySelector('.li');
 
 
 button.addEventListener('click', function(){
-    document.querySelector('.div1').innerHTML = input.value;
-       document.querySelector('.div1').style.color = 'red';
+       li.innerHTML = input.value;
+       li.style.color = 'red';
               input.value = '';
 });
