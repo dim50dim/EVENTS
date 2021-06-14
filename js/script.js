@@ -1,4 +1,6 @@
- 
+    'use strict';
+
+
 let button = document.querySelector('.btn');
      let input = document.querySelector('.inp');
            let li = document.querySelector('.li');
