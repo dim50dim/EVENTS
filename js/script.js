@@ -19,6 +19,9 @@
      function putRandom(min, max){
          return Math.ceil(Math.random() * (max - min) + min);
      }        
+ 
         
-   document.querySelector('.ul').after(li);
+   document.querySelector('.ul').prepend(li);
+   
+   
  });
