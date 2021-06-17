@@ -10,6 +10,7 @@ button.addEventListener('click', function() {
             input.value = '';
               li.style.color = `rgb(${colorRandom(0, 255)}, ${colorRandom(0, 255)}, ${colorRandom(0, 255)})`;
                 li.style.fontSize = '40px';
+                 li.style.listStyle = 'none';
 
         function  colorRandom (min, max){
             return Math.ceil(Math.random() * (max - min) + min);
